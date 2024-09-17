@@ -3,7 +3,7 @@ import morgan from "morgan";
 import cors from "cors";
 import * as dotenv from "dotenv";
 import mongoose from "mongoose";
-// import the route
+// TODO: import the route for users
 
 dotenv.config();
 
@@ -24,7 +24,7 @@ app.use(
     })
   );
 
-// insert use route 
+// TODO: insert use route for users 
 
   mongoose
   .connect(process.env.MONGODB_URI)
