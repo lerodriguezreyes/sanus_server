@@ -71,3 +71,5 @@ const router = express.Router();
 //       res.status(500).json(error);
 //     }
 //   });
+
+export default router;
