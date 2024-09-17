@@ -3,6 +3,11 @@ import User from "../models/User";
 
 const router = express.Router();
 
+// TODO:
+// [] set up the post route
+// [] set up the get route
+
+// FIXME: This is daniel code for the post route, need to adapt it.
 // router.post("/intake", async (req,res) = {
 //     try {
 //         const { name, position, email, profilePicUrl } = req.body;
@@ -55,3 +60,14 @@ const router = express.Router();
 //         res.status(500).json(error);
 //       }
 // })
+
+// FIXME: This is daniel code for the get route, need to adapt it.
+// router.get("/verify", isAuth, async (req, res) => {
+//     try {
+//       const user = await User.findById(req.user._id);
+//       res.json({ message: "User is logged in.", user });
+//     } catch (error) {
+//       console.log("error in verify", error);
+//       res.status(500).json(error);
+//     }
+//   });
