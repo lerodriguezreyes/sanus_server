@@ -7,7 +7,11 @@ const userSchema = new Schema(
       unique: true,
       required: true,
     },
-    position: {
+    position_spanish: {
+      type: String,
+      required: true,
+    },
+    position_english: {
       type: String,
       required: true,
     },
